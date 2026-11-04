@@ -1,0 +1,240 @@
+﻿Total_Revenue
+----------------------
+883760,299999991
+
+(1 row affected)
+
+Avg_order_Value
+----------------------
+41,3939250585474
+
+(1 row affected)
+
+Total_pizza_sold
+----------------
+49574
+
+(1 row affected)
+
+Total_Orders
+------------
+21350
+
+(1 row affected)
+
+Avg_Pizzas_per_order
+---------------------------------------
+2.32
+
+(1 row affected)
+
+order_day                      total_orders
+------------------------------ ------------
+Saturday                       3158
+Wednesday                      3024
+Monday                         2794
+Sunday                         2624
+Friday                         3538
+Thursday                       3239
+Tuesday                        2973
+
+(7 rows affected)
+
+Month_Name                     Total_Orders
+------------------------------ ------------
+February                       1685
+June                           1773
+August                         1841
+April                          1799
+May                            1853
+December                       1680
+January                        1845
+September                      1661
+October                        1646
+July                           1935
+November                       1792
+March                          1840
+
+(12 rows affected)
+
+pizza_category                                     total_revenue                           PCT
+-------------------------------------------------- --------------------------------------- ---------------------------------------
+Chicken                                            195919.50                               22.17
+Supreme                                            208197.00                               23.56
+Classic                                            285953.35                               32.36
+Veggie                                             193690.45                               21.92
+
+(4 rows affected)
+
+pizza_size                                         total_revenue                           PCT
+-------------------------------------------------- --------------------------------------- ---------------------------------------
+L                                                  375318.70                               42.47
+M                                                  249382.25                               28.22
+S                                                  243976.75                               27.61
+XL                                                 14076.00                                1.59
+XXL                                                1006.60                                 0.11
+
+(5 rows affected)
+
+pizza_category                                     Total_Quantity_Sold
+-------------------------------------------------- -------------------
+Classic                                            1178
+Supreme                                            964
+Veggie                                             944
+Chicken                                            875
+
+(4 rows affected)
+
+pizza_name                                         Total_Revenue
+-------------------------------------------------- ----------------------
+The Pepperoni Pizza                                96062
+The Thai Chicken Pizza                             43434,25
+The Barbecue Chicken Pizza                         42768
+The California Chicken Pizza                       41409,5
+The Classic Deluxe Pizza                           38180,5
+
+(5 rows affected)
+
+pizza_name                                         Total_Revenue
+-------------------------------------------------- ----------------------
+The Brie Carre Pizza                               11588,4999999999
+The Green Garden Pizza                             13955,75
+The Spinach Supreme Pizza                          15277,75
+The Mediterranean Pizza                            15360,5
+The Spinach Pesto Pizza                            15596
+
+(5 rows affected)
+
+pizza_name                                         Total_Pizza_Sold
+-------------------------------------------------- ----------------
+The Classic Deluxe Pizza                           2453
+The Barbecue Chicken Pizza                         2432
+The Hawaiian Pizza                                 2422
+The Pepperoni Pizza                                2418
+The Thai Chicken Pizza                             2371
+
+(5 rows affected)
+
+pizza_name                                         Total_Pizza_Sold
+-------------------------------------------------- ----------------
+The Brie Carre Pizza                               490
+The Mediterranean Pizza                            934
+The Calabrese Pizza                                937
+The Spinach Supreme Pizza                          950
+The Soppressata Pizza                              961
+
+(5 rows affected)
+
+pizza_name                                         Total_Orders
+-------------------------------------------------- ------------
+The Classic Deluxe Pizza                           2329
+The Hawaiian Pizza                                 2280
+The Pepperoni Pizza                                2278
+The Barbecue Chicken Pizza                         2273
+The Thai Chicken Pizza                             2225
+
+(5 rows affected)
+
+pizza_name                                         Total_Orders
+-------------------------------------------------- ------------
+The Brie Carre Pizza                               480
+The Mediterranean Pizza                            912
+The Spinach Supreme Pizza                          918
+The Calabrese Pizza                                918
+The Chicken Pesto Pizza                            938
+
+(5 rows affected)
+
+pizza_category                                     pizza_name                                         ingresos                                posicion
+-------------------------------------------------- -------------------------------------------------- --------------------------------------- --------------------
+Chicken                                            The Thai Chicken Pizza                             43434.25                                1
+Chicken                                            The Barbecue Chicken Pizza                         42768.00                                2
+Chicken                                            The California Chicken Pizza                       41409.50                                3
+Classic                                            The Pepperoni Pizza                                96062.00                                1
+Classic                                            The Classic Deluxe Pizza                           38180.50                                2
+Classic                                            The Hawaiian Pizza                                 32273.25                                3
+Supreme                                            The Spicy Italian Pizza                            34831.25                                1
+Supreme                                            The Italian Supreme Pizza                          33476.75                                2
+Supreme                                            The Sicilian Pizza                                 30940.50                                3
+Veggie                                             The Four Cheese Pizza                              32265.70                                1
+Veggie                                             The Mexicana Pizza                                 26780.75                                2
+Veggie                                             The Five Cheese Pizza                              26066.50                                3
+
+(12 rows affected)
+
+posicion             pizza_name                                         ingresos                                pct_acumulado                           dentro_del_80
+-------------------- -------------------------------------------------- --------------------------------------- --------------------------------------- -------------
+1                    The Pepperoni Pizza                                96062.00                                10.87                                   Si
+2                    The Thai Chicken Pizza                             43434.25                                15.78                                   Si
+3                    The Barbecue Chicken Pizza                         42768.00                                20.62                                   Si
+4                    The California Chicken Pizza                       41409.50                                25.31                                   Si
+5                    The Classic Deluxe Pizza                           38180.50                                29.63                                   Si
+6                    The Spicy Italian Pizza                            34831.25                                33.57                                   Si
+7                    The Southwest Chicken Pizza                        34705.75                                37.50                                   Si
+8                    The Italian Supreme Pizza                          33476.75                                41.29                                   Si
+9                    The Hawaiian Pizza                                 32273.25                                44.94                                   Si
+10                   The Four Cheese Pizza                              32265.70                                48.59                                   Si
+11                   The Sicilian Pizza                                 30940.50                                52.09                                   Si
+12                   The Greek Pizza                                    28454.10                                55.31                                   Si
+13                   The Mexicana Pizza                                 26780.75                                58.34                                   Si
+14                   The Five Cheese Pizza                              26066.50                                61.29                                   Si
+15                   The Pepper Salami Pizza                            25529.00                                64.18                                   Si
+16                   The Italian Capocollo Pizza                        25094.00                                67.02                                   Si
+17                   The Vegetables + Vegetables Pizza                  24374.75                                69.78                                   Si
+18                   The Prosciutto and Arugula Pizza                   24193.25                                72.51                                   Si
+19                   The Napolitana Pizza                               24087.00                                75.24                                   Si
+20                   The Spinach and Feta Pizza                         23271.25                                77.87                                   Si
+21                   The Big Meat Pizza                                 22968.00                                80.47                                   Si
+22                   The Pepperoni, Mushroom, and Peppers Pizza         18834.50                                82.60                                   No
+23                   The Chicken Alfredo Pizza                          16900.25                                84.51                                   No
+24                   The Chicken Pesto Pizza                            16701.75                                86.40                                   No
+25                   The Soppressata Pizza                              16425.75                                88.26                                   No
+26                   The Italian Vegetables Pizza                       16019.25                                90.08                                   No
+27                   The Calabrese Pizza                                15934.25                                91.88                                   No
+28                   The Spinach Pesto Pizza                            15596.00                                93.64                                   No
+29                   The Mediterranean Pizza                            15360.50                                95.38                                   No
+30                   The Spinach Supreme Pizza                          15277.75                                97.11                                   No
+31                   The Green Garden Pizza                             13955.75                                98.69                                   No
+32                   The Brie Carre Pizza                               11588.50                                100.00                                  No
+
+(32 rows affected)
+
+pizzas      pedidos     pct_pedidos                             valor_promedio_pedido
+----------- ----------- --------------------------------------- ---------------------------------------
+1           8111        37.99                                   17.65
+2           6152        28.81                                   35.90
+3           3207        15.02                                   53.07
+4           3122        14.62                                   71.48
+5           145         0.68                                    88.26
+6           80          0.37                                    111.76
+7           61          0.29                                    129.11
+8           67          0.31                                    144.46
+9           64          0.30                                    165.07
+10          56          0.26                                    181.26
+11          56          0.26                                    199.18
+12          54          0.25                                    213.61
+13          50          0.23                                    226.03
+14          66          0.31                                    245.62
+15          57          0.27                                    266.46
+25          1           0.00                                    417.15
+28          1           0.00                                    531.95
+
+(17 rows affected)
+
+ingrediente                                                                                                                                                                                              unidades_vendidas
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------
+Garlic                                                                                                                                                                                                   27913
+Tomatoes                                                                                                                                                                                                 27052
+Red Onions                                                                                                                                                                                               19834
+Red Peppers                                                                                                                                                                                              16562
+Mozzarella Cheese                                                                                                                                                                                        10569
+Pepperoni                                                                                                                                                                                                10540
+Spinach                                                                                                                                                                                                  10166
+Mushrooms                                                                                                                                                                                                9729
+Chicken                                                                                                                                                                                                  8618
+Capocollo                                                                                                                                                                                                6692
+
+(10 rows affected)
+
+
+Completion time: 2026-11-03T14:37:41.6471201-05:00
