@@ -3,7 +3,7 @@
 Análisis de las ventas de una pizzería durante 2015: consultas en **SQL Server** para explorar los datos y un dashboard en **Power BI** para presentar los resultados.
 
 <!-- Sustituye por tu captura del dashboard (guárdala en la carpeta images) -->
-![Dashboard](images/dashboard-pizza.png)
+![Dashboard](image.png)
 
 ## Objetivo
 
@@ -31,7 +31,7 @@ Este proyecto parte de un tutorial de YouTube del canal **Data Tutorials** (data
 ## Cómo reproducirlo
 
 1. En SQL Server, crea una base llamada `PizzaDB` e importa el CSV como la tabla `pizza_sales` (en SSMS: clic derecho sobre la base → *Tasks → Import Flat File*).
-2. Ejecuta [`sql/pizza_sales_consultas.sql`](sql/pizza_sales_consultas.sql). Primero crea la vista `v_pizza_sales`, que convierte cada columna a su tipo correcto (la fecha viene como `dd-mm-yyyy`), y luego contiene todas las consultas.
+2. Ejecuta [`sql/pizza_sales_consultas.sql`](PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql). Primero crea la vista `v_pizza_sales`, que convierte cada columna a su tipo correcto (la fecha viene como `dd-mm-yyyy`), y luego contiene todas las consultas.
 3. Abre `dashboard/pizza_sales.pbix` con Power BI Desktop.
 
 ## Consultas SQL
