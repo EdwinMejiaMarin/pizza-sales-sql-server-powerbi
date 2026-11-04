@@ -67,18 +67,8 @@ Responder preguntas de negocio sobre ingresos, productos y demanda (qué se vend
 - Recomendaciones de negocio basadas en los hallazgos (personal en horas pico y revisión de pizzas de bajo rendimiento).
 - Ordenar los días de la semana de lunes a domingo en el gráfico de tendencia diaria.
 
-## Estructura del repositorio
 
-```
-├── README.md
-├── sql/
-│   └── pizza_sales_consultas.sql
-├── images/
-│   └── dashboard-pizza.png
-└── dashboard/
-    └── pizza_sales.pbix
-```
 
 ## Autor
 
-**[Tu nombre]** · [LinkedIn](https://www.linkedin.com/) · [Correo]
+**Edwin Mejia** · [LinkedIn](https://www.linkedin.com/in/edwin-andres-mejia-marin-6a3646368/) · [edwinandresmejiamarin@gmai.com] [edwin.mejia@utp.edu.co]
