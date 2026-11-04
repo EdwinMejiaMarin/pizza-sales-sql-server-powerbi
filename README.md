@@ -14,25 +14,16 @@ Responder preguntas de negocio sobre ingresos, productos y demanda (qué se vend
 - **SQL Server (Express) y SSMS:** limpieza, consultas y análisis con agregaciones, CTEs y window functions.
 - **Power BI:** modelo, medidas DAX y dashboard.
 
-## Créditos y transparencia
-
-Este proyecto parte de un tutorial de YouTube del canal **Data Tutorials** (dataset y planteamiento). Para que quede claro qué es de cada parte:
-
-- **Tomado del tutorial:** las consultas de la sección A del archivo SQL (indicadores y rankings básicos) y la estructura general del dashboard.
-- **Propio:** las consultas de la sección B (análisis más avanzado), la vista que estandariza los tipos de datos y este README.
-
 ## Los datos
 
-- Tabla única `pizza_sales` con 12 columnas: identificadores de pizza y pedido, cantidad, fecha y hora, precio unitario y total, tamaño, categoría, ingredientes y nombre de la pizza.
+- Tabla única `pizza_sales.csv` con 12 columnas: identificadores de pizza y pedido, cantidad, fecha y hora, precio unitario y total, tamaño, categoría, ingredientes y nombre de la pizza.
 - Período: enero a diciembre de 2015. **21,350 pedidos** y **49,574 pizzas vendidas**.
-- Fuente del dataset: **[COMPLETAR: enlace o nombre de donde lo descargaste]**.
-- Cambios sobre el dataset original: **[COMPLETAR: qué modificaste en la base y por qué]**. Por eso algunas cifras (por ejemplo, los ingresos totales) pueden diferir de las del dataset público.
 
 ## Cómo reproducirlo
 
-1. En SQL Server, crea una base llamada `PizzaDB` e importa el CSV como la tabla `pizza_sales` (en SSMS: clic derecho sobre la base → *Tasks → Import Flat File*).
-2. Ejecuta [`sql/pizza_sales_consultas.sql`](PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql). Primero crea la vista `v_pizza_sales`, que convierte cada columna a su tipo correcto (la fecha viene como `dd-mm-yyyy`), y luego contiene todas las consultas.
-3. Abre `dashboard/pizza_sales.pbix` con Power BI Desktop.
+1. En SQL Server, crea una base llamada `PizzaDB` e importa el CSV como la tabla `pizza_sales.csv` (en SSMS: clic derecho sobre la base → *Tasks → Import Flat File*).
+2. Ejecuta [`PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql`](PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql). Primero crea la vista `v_pizza_sales`, que convierte cada columna a su tipo correcto (la fecha viene como `dd-mm-yyyy`), y luego contiene todas las consultas.
+3. Abre `dashboard/PizzaDB.pbix` con Power BI Desktop.
 
 ## Consultas SQL
 
