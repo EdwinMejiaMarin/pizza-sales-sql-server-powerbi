@@ -22,7 +22,7 @@ Responder preguntas de negocio sobre ingresos, productos y demanda (qué se vend
 ## Cómo reproducirlo
 
 1. En SQL Server, crea una base llamada `PizzaDB` e importa el CSV como la tabla `pizza_sales.csv` (en SSMS: clic derecho sobre la base → *Tasks → Import Flat File*).
-2. Ejecuta [`PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql`](PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql). Primero crea la vista `v_pizza_sales`, que convierte cada columna a su tipo correcto (la fecha viene como `dd-mm-yyyy`), y luego contiene todas las consultas.
+2. Ejecuta [`PizzaDB- SQL+PowerBi+Excel/SQLQuery.sql`](PizzaDB-SQL+PowerBi+Excel/SQLQuery.sql). Primero crea la vista `v_pizza_sales`, que convierte cada columna a su tipo correcto (la fecha viene como `dd-mm-yyyy`), y luego contiene todas las consultas.
 3. Abre `dashboard/PizzaDB.pbix` con Power BI Desktop.
 
 ## Consultas SQL
