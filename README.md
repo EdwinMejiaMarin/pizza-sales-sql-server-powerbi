@@ -71,4 +71,4 @@ Responder preguntas de negocio sobre ingresos, productos y demanda (qué se vend
 
 ## Autor
 
-**Edwin Mejia** · [LinkedIn](https://www.linkedin.com/in/edwin-andres-mejia-marin-6a3646368/) · [edwinandresmejiamarin@gmai.com] [edwin.mejia@utp.edu.co]
+**Edwin Mejia** · [LinkedIn](https://www.linkedin.com/in/edwin-andres-mejia-marin-6a3646368/) · [edwinandresmejiamarin@gmail.com] [edwin.mejia@utp.edu.co]
